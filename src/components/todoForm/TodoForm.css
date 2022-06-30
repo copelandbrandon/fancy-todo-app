@@ -1,0 +1,23 @@
+.todo-form {
+  border: 1px solid rgba(125, 125, 125, 0.6);
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(158, 158, 158, 0.5);
+}
+
+.todo-input {
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: rgba(158, 158, 158, 0);
+  cursor: white;
+}
+
+.todo-input:focus-visible {
+  outline: none;
+}
+
+.todo-input-label {
+  color: white;
+}
