@@ -2,9 +2,11 @@
   border: 1px solid rgba(125, 125, 125, 0.6);
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   background-color: rgba(158, 158, 158, 0.5);
+  width: 80%;
+  align-items: start;
 }
 
 .todo-input {
@@ -13,6 +15,9 @@
   background-color: rgba(158, 158, 158, 0);
   caret-color: white;
   color: white;
+  margin-top: 20px;
+  width: 98%;
+  margin-left: 10px;
 }
 
 .todo-input:focus-visible {
