@@ -11,7 +11,8 @@
   border: none;
   border-bottom: 2px solid white;
   background-color: rgba(158, 158, 158, 0);
-  cursor: white;
+  caret-color: white;
+  color: white;
 }
 
 .todo-input:focus-visible {
