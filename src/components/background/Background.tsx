@@ -17,7 +17,7 @@ export const Background = () => {
 
   useEffect(() => {
     dispatch(loadBackgrounds());
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     setCurrentBackground(backgrounds[0]);

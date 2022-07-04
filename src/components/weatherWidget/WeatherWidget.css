@@ -1,0 +1,32 @@
+.weather-widget-container {
+  z-index: 5;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  background-color: rgba(179, 179, 179, 0.3);
+  border: 1px solid rgba(179, 179, 179, 0.7);
+  padding: 10px;
+  width: fit-content;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.weather-widget-description {
+  font-size: large;
+  margin-top: -25px;
+}
+
+.weather-widget-icon {
+  width: 80px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+}
