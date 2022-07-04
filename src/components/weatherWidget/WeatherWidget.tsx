@@ -15,8 +15,6 @@ export const WeatherWidget = () => {
     dispatch(loadWeatherData());
   }, [dispatch]);
 
-  console.log(weatherData);
-
   return (
     <div className="weather-widget-container">
       <img className="weather-widget-icon" src={cloudImg} alt="cloud.png" />
