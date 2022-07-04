@@ -1,9 +1,15 @@
-import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import todosReducer from "../features/todo/todosSlice";
+import backgroundsReducer from "../features/background/backgroundsSlice";
+import weatherReducer from "../features/weather/weatherSlice";
+import quoteReducer from "../features/quote/quoteSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    todos: todosReducer,
+    backgrounds: backgroundsReducer,
+    weather: weatherReducer,
+    quote: quoteReducer,
   },
 });
 

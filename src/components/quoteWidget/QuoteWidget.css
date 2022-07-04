@@ -1,0 +1,14 @@
+.quote-container {
+  z-index: 10;
+  color: white;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  bottom: 30px;
+  position: absolute;
+  font-size: large;
+}
+
+.quote-author {
+  font-size: medium;
+}
